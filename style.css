@@ -1,0 +1,106 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(Ailerons-Typeface.otf);
+}
+
+.containers {
+	/*padding: 60px;*/
+	margin-top: 30px;
+	margin: auto;
+	background-image: url('stars.jpg');
+	width: 100%;
+	height: 100%;
+	margin-top: -17px;
+}
+
+.nasa-logo {
+	width: 134px;
+	height: 75px;
+	position: absolute;
+}
+
+ul#list-nav {
+  text-align: auto;
+  margin-left: auto;
+  margin-right: auto;
+  list-style:none;
+  margin:20px;
+  padding:0;
+  width:525px;
+}
+
+ul#list-nav li {
+  display:inline
+}
+
+ul#list-nav li a {
+  text-decoration:none;
+  padding:5px 0;
+  width:100px;
+  background:black;
+  color:#eee;
+  text-align:center;
+  border-left:2px solid #fff;
+  padding-left: 5px;
+}
+
+ul#list-nav li a:hover {
+  background:blue;
+  color:#000
+}
+
+.top-start-page {
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+.top-title {
+	font-size: 100px;
+	font-family: myFirstFont;
+	color: white;
+}
+
+.main-page {
+	text-align: center;
+}
+
+.main-page span {
+	font-size: 30px;
+	font-family: myFirstFont;
+	color: white;
+}
+
+.world {
+	padding-top: -30px;
+	font-size: 150px;
+	font-family: myFirstFont; 
+	color: white;
+}
+
+.top-start-page .span {
+	color: white;
+	font-family: myFirstFont;
+	font-size: 50px;
+}
+
+#search {
+	text-align: center;
+	padding-top: 30px;
+}
+
+.results {
+	margin: auto;
+	text-align: center;
+}
+
+.main-page span {
+	color: white;
+	font-size: 25px;
+}
+
+.nasa-img {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
